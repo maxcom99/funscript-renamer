@@ -4,10 +4,10 @@ This Python script automates the process of fetching metadata for Funscript file
 
 ## Features
 
-- Fetch metadata for Funscript files from an API.
+- Fetch metadata for Funscript files from the SLR API.
 - Rename Funscript files based on metadata (title, paysite, resolution, ID).
 - Handle duplicates during renaming (skip, replace, or rename).
-- Clean and format title and paysite name by replacing forbidden characters and multiple spaces with a single space.
+- Clean and format title and paysite name by to ensure we have proper file names.
 
 ## Prerequisites
 
