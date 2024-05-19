@@ -55,7 +55,7 @@ This Python script automates the process of fetching metadata for Funscript file
    python process.py [--dupe {skip,replace,rename}]
    ```
 
-   - `--dupe {skip,replace,rename}`: Action to take if a file with the new name already exists (default is `skip`).
+   - `--dupe {skip,replace,rename}`: Action to take if a file with the new name already exists (default is `rename`).
 
 3. The script will process the files in two phases:
    - **Phase 1: Getting Meta Data**: Fetch metadata for each Funscript file from the SLR API.
